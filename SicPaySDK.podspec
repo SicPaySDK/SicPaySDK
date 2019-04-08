@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0" #平台及支持的最低版本
   
   # User
-  s.author             = { "SicPay" => "ztech@sicpay.com" } # 作者信息
+  s.author             = { "SicPay" => "tech@sicpay.com" } # 作者信息
   s.social_media_url   = "https://github.com/SicPaySDK" # 个人主页
 
 
