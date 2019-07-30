@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SicPaySDK" # 项目名称
-  s.version      = "1.0.1"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "1.0.3"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "this is a payment SDK devlopmented by SicPaySDK." # 项目简介
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true # 是否启用ARC
   s.platform     = :ios, "8.0" #平台及支持的最低版本
   
-  # User
+  # User  
   s.author             = { "SicPay" => "tech@sicpay.com" } # 作者信息
   s.social_media_url   = "https://github.com/SicPaySDK" # 个人主页
 

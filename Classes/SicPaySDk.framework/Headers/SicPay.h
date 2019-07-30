@@ -33,15 +33,16 @@ typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus paySta
 /**
  *  SDK                  配置
  *  @param  environment  开发环境       0:测试 1:生产
- *  @parm   Abroad       境内外
+ *  @parm   Abroad       境内外         YES:境外 NO:境内
  */
 + (void)setEnvironment:(SicPayEnvironment)environment
                 Abroad:(BOOL)abroad;
 //INAPP不同渠道跳转支付配置的
 + (void)setUPOPScheme:(NSString *)scheme;
-+ (void)setWeChatScheme:(NSString *)scheme;
++ (void)setWeChatScheme:(NSString *)scheme WxAppid:(NSString *)WxAppid;
 + (void)setTngWalletScheme:(NSString *)scheme;
 + (void)setCCFHCWaletScheme:(NSString *)scheme;
++ (void)setAliPayScheme:(NSString *)scheme;
 //Apple Pay(如果不支持，不需要设置)
 + (void)setApplePayMerchantID:(NSString *)appleMerchantId;
 
