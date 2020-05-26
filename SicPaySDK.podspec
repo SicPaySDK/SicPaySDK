@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SicPaySDK" # 项目名称
-  s.version      = "1.1.0"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "1.1.1"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "this is a payment SDK devlopmented by SicPaySDK." # 项目简介
 
@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 
 
 #特别重要，这里必须配置，否则上传成功，找不到.framework,只有头文件
-  s.vendored_frameworks = 'Classes/SicPaySDk.framework'
+   s.vendored_frameworks = 'Classes/SicPaySDk.framework'
 
-  s.resources = "Classes/SicSDKResources.bundle"
+   s.resources = "Classes/SicSDKResources.bundle"
 
-  s.dependency 'OpenSSL-Universal'
+   s.dependency 'OpenSSL-Universal'
 
-  s.libraries = "z","c++"
+   s.libraries = "z","c++"
 
 
 
