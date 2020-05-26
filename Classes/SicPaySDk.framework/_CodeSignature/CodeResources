@@ -4,41 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AlipaySDK.bundle/alipay_msp_back@2x.png</key>
-		<data>
-		9QmweA7IyncTPWZIOx5ECL2ne4o=
-		</data>
-		<key>AlipaySDK.bundle/alipay_msp_refresh@2x.png</key>
-		<data>
-		ivQn6LWpOB8BoUbNdxsIvfbJbuM=
-		</data>
-		<key>AlipaySDK.bundle/bar@2x.png</key>
-		<data>
-		ENmQmLXuSOxBy844XKkdTedcv2Y=
-		</data>
-		<key>AlipaySDK.bundle/bridge.js</key>
-		<data>
-		urThpeQTTeUwL/xPsynoz5vzadU=
-		</data>
-		<key>AlipaySDK.bundle/refresh@2x.png</key>
-		<data>
-		MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
-		</data>
-		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
-		<data>
-		Q5O/60AWCbG5LfvVC3+guPjpeFs=
-		</data>
-		<key>AlipaySDK.bundle/shutdown@2x.png</key>
-		<data>
-		Z3Jf5aw1lVPaKemSw8qXPabBLcw=
-		</data>
-		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
-		<data>
-		v8pstv1HbmoW3gdlKZzSqn31WHY=
-		</data>
 		<key>Headers/SicPay.h</key>
 		<data>
-		JgZb99Iom7rqF+Xj2mLJbV+BznM=
+		3AiCKF/oyN9DNeQ2gDbtX4zAt1g=
 		</data>
 		<key>Headers/SicPaySDk.h</key>
 		<data>
@@ -46,25 +14,17 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N+X3QziWCvpMJuKSX+yim0pLvcQ=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		ycUL1Gtpq6YuYcZdirCN0ejIOzg=
+		Ppx0eh/BZ3MKyila6tBYCs6TKKs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2ZDvDlZdrrMlaBJfsq1kwzdwbU8=
 		</data>
-		<key>README.txt</key>
-		<data>
-		kuEn+FtvZ5ieLZHvUKYYkuKPDog=
-		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8gXXaO5AKuOlsXpTAz1pPJ/QSiM=
+			l70ROuKywhEpzU18BHTqJTV2Vn4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +33,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0VV0QI3exWX4geQhqYHm8fuh5zU=
+			FNnZygq8sdcVMFkLuqu12sXM9GI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -82,7 +42,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xMFKgVdY7Czf+AbV3Edr88oW7ds=
+			DT+X93FzPZtDztygyxmgB1Df1eI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -91,7 +51,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t+KcBRgSuHu15A2J2H5iHtVZADY=
+			hkGjZq4OagC58xrXOLQIanevwic=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -100,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			39YwoEGNtPiwWjaE7G2lOu6OY0g=
+			mAMfFd4DoNQ6BOs7Tf2uEFHAHpQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -109,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			og3uZZ53ZYEFnQISPI6WJtRHots=
+			XUAzklIBe5wXxtJB2ymN3YLD7lE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -117,103 +77,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AlipaySDK.bundle/alipay_msp_back@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9QmweA7IyncTPWZIOx5ECL2ne4o=
-			</data>
-			<key>hash2</key>
-			<data>
-			pqv6sMiIl+QnblEyN3FQCDRwbxFEJpY5Roe80rSkaA4=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/alipay_msp_refresh@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ivQn6LWpOB8BoUbNdxsIvfbJbuM=
-			</data>
-			<key>hash2</key>
-			<data>
-			eSIZGIUsqcDz03r9ISTu2jNwTz0msn0tSSEOTq8KYz0=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/bar@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ENmQmLXuSOxBy844XKkdTedcv2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			38AV6Lw9+K+g+t7MHjtEKIJarVILLcTXm0o58ki9C3Q=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/bridge.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			urThpeQTTeUwL/xPsynoz5vzadU=
-			</data>
-			<key>hash2</key>
-			<data>
-			KN/1QNDRcCy6zI/p0yJOgLnbgbNBDctBnLo1xDPp5g0=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/refresh@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
-			</data>
-			<key>hash2</key>
-			<data>
-			mR8Iqbh2To/+bYNWFk0IbpoorNfzg31HgUB8v89EphQ=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q5O/60AWCbG5LfvVC3+guPjpeFs=
-			</data>
-			<key>hash2</key>
-			<data>
-			qkSv6KIv4z3l+TmK/G5Gms3oYZripYuLCK2rB2rmyhY=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/shutdown@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z3Jf5aw1lVPaKemSw8qXPabBLcw=
-			</data>
-			<key>hash2</key>
-			<data>
-			mWjeqq55Ym3S0vhMp13qIXpvbIkaeheRy9CnDbpcqhQ=
-			</data>
-		</dict>
-		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			v8pstv1HbmoW3gdlKZzSqn31WHY=
-			</data>
-			<key>hash2</key>
-			<data>
-			dE2ndHqk8MuNrgTt2yHONxfP38nq2HUgB4t2jKRl8SI=
-			</data>
-		</dict>
 		<key>Headers/SicPay.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JgZb99Iom7rqF+Xj2mLJbV+BznM=
+			3AiCKF/oyN9DNeQ2gDbtX4zAt1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			kiJj2bxQGTR6URce57B5iY37rN/wJWEiYo/m8U1HXWs=
+			/XjoYUVRWT2kfuJTiTUOHzEWQfBI4iXh6nR2pR3iOQg=
 			</data>
 		</dict>
 		<key>Headers/SicPaySDk.h</key>
@@ -227,17 +99,6 @@
 			X4MhATflGq9Q2sfcMCQbecvQok/O7+0Lt405m1uAcLg=
 			</data>
 		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ycUL1Gtpq6YuYcZdirCN0ejIOzg=
-			</data>
-			<key>hash2</key>
-			<data>
-			NW5CJe0HffJYaGeVeXhBBLG3pXUuusxzBKLU7A8Z6Wg=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -249,26 +110,15 @@
 			JFhTCVuCImCrT0H52wWsgZPM/NvC7rDrRMbQCYB+684=
 			</data>
 		</dict>
-		<key>README.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kuEn+FtvZ5ieLZHvUKYYkuKPDog=
-			</data>
-			<key>hash2</key>
-			<data>
-			9tSxZJDvIksZPJdGv1M/dg5ECa7hdVtBtn4IhkEmrq8=
-			</data>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8gXXaO5AKuOlsXpTAz1pPJ/QSiM=
+			l70ROuKywhEpzU18BHTqJTV2Vn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pPtIO/359BZMok7Fnj8hwLnJkeIAZaVbHQBBbQG4RhI=
+			+FeDSAfAI9nHARWYpZlVKO8wlWL6dvECWJFfXz5jhi8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -277,11 +127,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0VV0QI3exWX4geQhqYHm8fuh5zU=
+			FNnZygq8sdcVMFkLuqu12sXM9GI=
 			</data>
 			<key>hash2</key>
 			<data>
-			e+p/Esdnx2Cr87c31lXJm/W6UNOab/Lq2C29ajuf6Ug=
+			C/dwqVBKhEitzeBEFis0GQey39cuwVZjBbD/1ifnWMI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xMFKgVdY7Czf+AbV3Edr88oW7ds=
+			DT+X93FzPZtDztygyxmgB1Df1eI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xV3DVYP634fjC2mvG+TZ+W0XWtrLfXcaZZ5qt56ocj8=
+			QuSz9NTmQSTvqjswTi7d5Kn7Q4T80XlQcl5VpnaiiKk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -303,11 +153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t+KcBRgSuHu15A2J2H5iHtVZADY=
+			hkGjZq4OagC58xrXOLQIanevwic=
 			</data>
 			<key>hash2</key>
 			<data>
-			a9onQaRq8JdUQSVPMgAVgjALsiKnPJ1I+KJk+AUvAoo=
+			T9rTIa1UlHDJWypogPuzYxWf7IX4/xKW55872lp8oN4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			39YwoEGNtPiwWjaE7G2lOu6OY0g=
+			mAMfFd4DoNQ6BOs7Tf2uEFHAHpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BfHz+YsaKI8V466LQktl7DtVWMbWhJNDjzOM7c1QbAE=
+			BFbZZrtmUjWylGjv1U+JZQbC6r/pUSqfDL7xcoUjYdM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -329,11 +179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			og3uZZ53ZYEFnQISPI6WJtRHots=
+			XUAzklIBe5wXxtJB2ymN3YLD7lE=
 			</data>
 			<key>hash2</key>
 			<data>
-			02OIHkT3n9rcdU4G88S7qBRToBxXuFXlxlP2T9z+sTk=
+			GGf9ktGx0d2QZCN6rEj0uwhMr66uDZYDjFBwEMKOSQk=
 			</data>
 			<key>optional</key>
 			<true/>

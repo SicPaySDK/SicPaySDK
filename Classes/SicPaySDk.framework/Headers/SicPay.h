@@ -28,6 +28,11 @@ typedef NS_ENUM(NSInteger,SicResultBlockScene) {
 
 typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus payStatus, SicResultBlockScene blockScene);
 
+
+typedef void (^ResultSuccessBlock)(NSDictionary *result);
+
+typedef void(^ResultFailureBlock)(id responseData, NSString* code);
+
 @interface SicPay : NSObject
 
 /**
@@ -39,12 +44,30 @@ typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus paySta
                 Abroad:(BOOL)abroad;
 //INAPP不同渠道跳转支付配置的
 + (void)setUPOPScheme:(NSString *)scheme;
-+ (void)setWeChatScheme:(NSString *)scheme WxAppid:(NSString *)WxAppid;
++ (void)setWeChatScheme:(NSString *)scheme WxAppid:(NSString *)WxAppid universalLink:(NSString *)universalLink;
+
+
+/// 跳转微信小程序并进行支付
+/// @param userName 小程序原始ID
+/// @param path 跳转的页面路径，传@""为默认跳转首页
+/// @param miniProgramType 小程序的版本类型（0:正式，1:开发，2:体验）
+/// @param payresultCompletionBlock SDK检测到支付结果回调 (blockFrom代表什么场景下的block回调)
++ (void)createPaymentWeChatMiniProgramWithUserName:(NSString *)userName
+                                    Path:(NSString *)path
+                         MiniProgramType:(int)miniProgramType payResultCompletion:(SicPayCompletion)payresultCompletionBlock;
+
+
+
 + (void)setTngWalletScheme:(NSString *)scheme;
 + (void)setCCFHCWaletScheme:(NSString *)scheme;
 + (void)setAliPayScheme:(NSString *)scheme;
 //Apple Pay(如果不支持，不需要设置)
 + (void)setApplePayMerchantID:(NSString *)appleMerchantId;
+
++ (void)setUserId:(NSString *)userId;
+
+
+
 
 /**
  *  处理app跳转回调
@@ -52,6 +75,17 @@ typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus paySta
  *  @param  sourceApplication  待处理sourceApplication
  */
 + (BOOL)handleURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication;
+
+
+
+/*! @brief 处理通过Universal Link启动App时传递的数据
+*
+* 需要在 application:continueUserActivity:restorationHandler:中调用。
+* @param userActivity 启动第三方应用时系统API传递过来的userActivity
+* @return 成功返回YES，失败返回NO。
+*/
++ (BOOL)handleOpenUniversalLink:(NSUserActivity *) userActivity;
+
 
 /**
  *  支付调用接口
@@ -79,9 +113,17 @@ typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus paySta
 /**
  *  版本号
  *
- *  @return         SicPay SDK 版本号
+ *  @return         SicPay SDK 报文版本号
  */
 + (NSString *)version;
+
+/**
+ *  版本号
+ *
+ *  @return         SicPay SDK 当前版本号
+ */
++ (NSString *)SDKCurrent_Version;
+
 
 /**
  *  版本环境
@@ -118,5 +160,7 @@ typedef void (^SicPayCompletion)(NSDictionary *result, SicPayResultStatus paySta
 + (NSString *)getStrWithKey1:(NSString *)key1
                         key2:(NSInteger)key2
                         key3:(NSString *)key3;
+
+
 
 @end
