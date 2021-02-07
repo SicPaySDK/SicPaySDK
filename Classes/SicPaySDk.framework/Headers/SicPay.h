@@ -96,6 +96,7 @@ typedef void(^ResultFailureBlock)(id responseData, NSString* code);
  *  @param payParams                预订单参数信息 NSDictionary对象  (键值主要值为token_id)
                                                                   (内购需要传入iap_product_id)
  *  @param show                     是否使用SDK支付成功页
+ *  @param showLoading                     是否使用SDK的Loading
  *  @param dismissAniamation        SDK是否需要退出动画
  *  @param viewController           调起的控制器
  *  @param singleBankCode           如果只想直接调起某一种支付，传该种支付的bankcode（请参照SDK文档）
@@ -106,6 +107,7 @@ typedef void(^ResultFailureBlock)(id responseData, NSString* code);
                          terminalNo:(NSString *)terminal_no
                           payParams:(NSDictionary *)payParams
                      showResultPage:(BOOL)show
+                        showLoading:(BOOL)showLoading
                SDKDismissAniamation:(BOOL)dismissAniamation
                      viewController:(UIViewController *)viewController
                   singlePaymentType:(NSString *)singleBankCode

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SicPay.h</key>
 		<data>
-		3AiCKF/oyN9DNeQ2gDbtX4zAt1g=
+		+UIKTpm1uOv8fBVdXSGY5GH53Gk=
 		</data>
 		<key>Headers/SicPaySDk.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f1hYFO/i5QLRmngzMjqyjQOuFnE=
+		VrpxWte6y4tQRDE5WR4T8cErZqQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,11 +81,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3AiCKF/oyN9DNeQ2gDbtX4zAt1g=
+			+UIKTpm1uOv8fBVdXSGY5GH53Gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/XjoYUVRWT2kfuJTiTUOHzEWQfBI4iXh6nR2pR3iOQg=
+			2ujbUoZsb2oo+QlAAJ5wZj99VLhww0BSzmalDfXsFmo=
 			</data>
 		</dict>
 		<key>Headers/SicPaySDk.h</key>
