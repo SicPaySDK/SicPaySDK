@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AlipaySDK.bundle/bar@2x.png</key>
+		<data>
+		ENmQmLXuSOxBy844XKkdTedcv2Y=
+		</data>
+		<key>AlipaySDK.bundle/refresh@2x.png</key>
+		<data>
+		MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
+		</data>
+		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
+		<data>
+		Q5O/60AWCbG5LfvVC3+guPjpeFs=
+		</data>
+		<key>AlipaySDK.bundle/shutdown@2x.png</key>
+		<data>
+		Z3Jf5aw1lVPaKemSw8qXPabBLcw=
+		</data>
+		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
+		<data>
+		v8pstv1HbmoW3gdlKZzSqn31WHY=
+		</data>
 		<key>Headers/SicPay.h</key>
 		<data>
 		+UIKTpm1uOv8fBVdXSGY5GH53Gk=
@@ -14,11 +34,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VrpxWte6y4tQRDE5WR4T8cErZqQ=
+		hPqTbmtxdvXemm+yFc1ei6UddZk=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		ycUL1Gtpq6YuYcZdirCN0ejIOzg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2ZDvDlZdrrMlaBJfsq1kwzdwbU8=
+		</data>
+		<key>README.txt</key>
+		<data>
+		WrTpNNLHaNNHEWaRBYI4DSkK0bk=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -77,6 +105,61 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AlipaySDK.bundle/bar@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ENmQmLXuSOxBy844XKkdTedcv2Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			38AV6Lw9+K+g+t7MHjtEKIJarVILLcTXm0o58ki9C3Q=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/refresh@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mR8Iqbh2To/+bYNWFk0IbpoorNfzg31HgUB8v89EphQ=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q5O/60AWCbG5LfvVC3+guPjpeFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			qkSv6KIv4z3l+TmK/G5Gms3oYZripYuLCK2rB2rmyhY=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/shutdown@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z3Jf5aw1lVPaKemSw8qXPabBLcw=
+			</data>
+			<key>hash2</key>
+			<data>
+			mWjeqq55Ym3S0vhMp13qIXpvbIkaeheRy9CnDbpcqhQ=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v8pstv1HbmoW3gdlKZzSqn31WHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			dE2ndHqk8MuNrgTt2yHONxfP38nq2HUgB4t2jKRl8SI=
+			</data>
+		</dict>
 		<key>Headers/SicPay.h</key>
 		<dict>
 			<key>hash</key>
@@ -99,6 +182,17 @@
 			X4MhATflGq9Q2sfcMCQbecvQok/O7+0Lt405m1uAcLg=
 			</data>
 		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ycUL1Gtpq6YuYcZdirCN0ejIOzg=
+			</data>
+			<key>hash2</key>
+			<data>
+			NW5CJe0HffJYaGeVeXhBBLG3pXUuusxzBKLU7A8Z6Wg=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -108,6 +202,17 @@
 			<key>hash2</key>
 			<data>
 			JFhTCVuCImCrT0H52wWsgZPM/NvC7rDrRMbQCYB+684=
+			</data>
+		</dict>
+		<key>README.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WrTpNNLHaNNHEWaRBYI4DSkK0bk=
+			</data>
+			<key>hash2</key>
+			<data>
+			u2E7ncJCmclTrpkpofxC9qe/JXvY4+qCqsCLRSm8rT4=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
